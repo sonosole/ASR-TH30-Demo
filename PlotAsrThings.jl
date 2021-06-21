@@ -1,5 +1,5 @@
-# using Statistics
-# using Plots
+using Statistics
+using Plots
 
 # [1]. weights' pdf
 x = asrmodel[1].w.value;

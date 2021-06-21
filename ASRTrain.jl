@@ -39,7 +39,7 @@ function collateth30(samples::Vector{Tuple{Array{Float64,2},Vector{Int64}}})
 end
 
 
-FPATH = "./records.txt"
+FPATH = "./doc/records.txt"
 BATCHSIZE = 2
 Th30DataSet = th30(FPATH)
 TH30DataLoader = DataLoader(Th30DataSet, batchsize=BATCHSIZE, collatefn=collateth30)
